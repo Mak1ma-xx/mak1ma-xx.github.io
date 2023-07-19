@@ -56,7 +56,7 @@ Okay, it give us a .txt file lets invsetigate it.
 <img width="371" alt="Screenshot 2023-07-18 at 12 53 43" src="https://github.com/Mak1ma-xx/mak1ma-xx.tryhackme_writeups/assets/106231648/64d77ea8-5f5d-4aa4-aca9-ad7df1aad897">
 
 This is Morse code and we need to crack it. You can search for any Morse decoder, I'm using CyberChef. 
-After decoding we can see Base 64 code lets decode it too.
+After decoding we can see Hex and after Base 64 code lets decode it too.
 
 <img width="765" alt="Screenshot 2023-07-19 at 11 12 54" src="https://github.com/Mak1ma-xx/mak1ma-xx.tryhackme_writeups/assets/106231648/db01b12e-e4b0-421f-90d5-a6256369b819">
 
@@ -97,7 +97,7 @@ We can use as root python3 and jail.py. Jail.py is not writable so we cant edit 
 
 I didn't know what it means, so I googled it and found about Python Prison method and how to bypass it. 
 
-If we enter this input (__builtins__.__dict__[‘__IMPORT__’.lower()](‘OS’.lower()).__dict__[‘SYSTEM’.lower()](‘cat /root/root.txt’)) to our program it must show to us root flag.
+If we enter this input ```__builtins__.__dict__[‘__IMPORT__’.lower()](‘OS’.lower()).__dict__[‘SYSTEM’.lower()](‘cat /root/root.txt’)``` to our program it must show to us root flag.
 
 So, thats the end. Thank you. Hope ypu enjoyed it and learned new things. Keep practicing. Cheers.
 
