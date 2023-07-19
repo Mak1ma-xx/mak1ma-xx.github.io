@@ -3,6 +3,7 @@ Hello, today we wil do Tokyo Ghoul ctf by devalfo and rockyou.txt ( https://tryh
 After connecting to website's VPN we can start scanning our target machine for open ports.
 
 <img width="755" alt="Screenshot 2023-07-18 at 12 25 39" src="https://github.com/Mak1ma-xx/mak1ma-xx.tryhackme_writeups/assets/106231648/dffc86ed-2f9e-4b93-9149-cb887c8e55a3">
+ 
  -sV  is for version of software running on port
  -O for OS running on a target machine
 
@@ -38,7 +39,7 @@ This file is executable so lets give it execute permission (chmod +x)
 
 <img width="539" alt="Screenshot 2023-07-18 at 12 52 01" src="https://github.com/Mak1ma-xx/mak1ma-xx.tryhackme_writeups/assets/106231648/62bce1a6-dbfc-4076-ad4c-3f3b88e9559a">
 
-It;s askink "What we are looking for?" I type random word and it said to look inside of it.
+It's asking "What we are looking for?" I type random word and it said to look inside of it.
 
 So, how w lnow it's a binary, we can use **strings** command to find humman readable words.
 
