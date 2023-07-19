@@ -41,7 +41,7 @@ This file is executable so lets give it execute permission (chmod +x)
 
 It's asking "What we are looking for?" I type random word and it said to look inside of it.
 
-So, how w lnow it's a binary, we can use **strings** command to find humman readable words.
+So, how we know it's a binary, we can use **strings** command to find humman readable words.
 
 <img width="292" alt="Screenshot 2023-07-18 at 12 52 18" src="https://github.com/Mak1ma-xx/mak1ma-xx.tryhackme_writeups/assets/106231648/dc2d8680-d964-498e-90d5-4b4d2e40eaf6">
 
